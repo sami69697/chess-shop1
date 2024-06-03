@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .product img {
+            max-width: 150px;
+            margin-right: 1rem;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .product-info h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .product-info p {
+            margin: 0.5rem 0;
+        }
+        .product-info .price {
+            font-size: 1.2rem;
+            color: #007bff;
+        }
+        .product-info .buy-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Chess Shop</h1>
+    </div>
+    <div class="container">
+        <div class="product">
+            <img src="https://www.megateksa.com/wp-content/uploads/2019/07/tabela-shahu-56x60cm.jpg" alt="Tabela Shahu Lux">
+            <div class="product-info">
+                <h3>Tabela Shahu Lux 56x60cm Material Druri</h3>
+                <p>Material druri i cilësisë së lartë, për një përvojë të shkëlqyer shahu.</p>
+                <p class="price">€60.00</p>
+                <a href="https://www.megateksa.com/sq/tabele-shahu-lux-56x60cm-material-druri" class="buy-button">Bli Tani</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://achf.org.al/wp-content/uploads/2018/12/libri-i-shahut-libri-nxenesit.pdf#page=1&zoom=auto,-17,792" alt="Libri i Shahut">
+            <div class="product-info">
+                <h3>Libri i Shahut - Libri Nxënësit</h3>
+                <p>Një libër i shkëlqyer për të mësuar shahun për nxënësit.</p>
+                <p class="price">€15.00</p>
+                <a href="https://achf.org.al/wp-content/uploads/2018/12/libri-i-shahut-libri-nxenesit.pdf" class="buy-button">Bli Tani</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://ae01.alicdn.com/kf/Hc201cd4dfedb490ea5f40f8a8f4dc4d1G.jpg" alt="Chess Clock Timer">
+            <div class="product-info">
+                <h3>Chess Clock Timer</h3>
+                <p>Digital chess clock with multiple settings.</p>
+                <p class="price">$12.98</p>
+                <a href="https://www.aliexpress.com/item/1005005364056775.html?aff_platform=true&aff_short_key=UneMJZVf&isdl=y&src=bing&pdp_npi=3%40dis%21USD%2116.23%2112.98%21%21%212.11%21%21%40%2112000032749065915%21ppc%21%21&albch=shopping&acnt=135095331&isdl=y&albcp=554965388&albag=1296325350043377&slnk=&trgt=pla-4584619899184998&plac=&crea=81020389565723&netw=o&device=c&mtctp=e&utm_source=Bing&utm_medium=shopping&utm_campaign=PA_Bing_WW%28others%29_PLA_SFFC_0%2F1%2F2%2F3-20240531&utm_content=0%2F1%2F2%2F3&utm_term=chess%20clock%20timer&msclkid=dadf35e0d79e107a458953bec14a7aa0&gatewayAdapt=4itemAdapt" class="buy-button">Bli Tani</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
